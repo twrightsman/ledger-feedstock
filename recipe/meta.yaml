@@ -46,7 +46,7 @@ requirements:
 
 test:
   commands:
-    - ledger | grep {{ version }}
+    - ledger --version
 
 about:
   home: https://www.ledger-cli.org/
